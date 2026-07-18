@@ -25,15 +25,19 @@ $DigestPattern = "AI_in_Education_Digest_*.md"
 
 # ========================================================================= #
 
-# NOTE: we deliberately do NOT use "Stop" here. git writes normal progress to
-# the error stream, and "Stop" would treat that as a fatal error (the bug you
-# hit). We check git's real exit code instead.
 $ErrorActionPreference = "Continue"
-
 $log = Join-Path $RepoPath "publish_review.log"
-function Log($m) { "$(Get-Date -Format s)  $m" | Tee-Object -FilePath $log -Append }
+
+# Write to the log file and the console ONLY. It must NOT return anything into
+# the pipeline, or it pollutes the exit codes of the git calls below.
+function Log($m) {
+    $line = "$(Get-Date -Format s)  $m"
+    Add-Content -Path $log -Value $line
+    Write-Host $line
+}
 
 # Run a git command, log all its output, and return its real exit code.
+# Nothing here leaks into the pipeline except the final integer exit code.
 function Invoke-Git {
     $out = & git @args 2>&1
     foreach ($line in $out) { Log "git: $line" }
@@ -68,9 +72,11 @@ try {
     }
 
     # 4. Stage ONLY this digest file (so stray files in input\ are left alone).
-    Invoke-Git add -- "input/$($newest.Name)" | Out-Null
+    if ((Invoke-Git add -- "input/$($newest.Name)") -ne 0) {
+        Log "ERROR: git add failed."; exit 1
+    }
 
-    # Anything actually staged?
+    # Anything actually staged? (exit code 0 from --quiet means "no changes")
     & git diff --cached --quiet
     if ($LASTEXITCODE -eq 0) {
         Log "No new digest to publish (already up to date)."
