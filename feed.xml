@@ -6,9 +6,9 @@
     <language>en</language>
     <description>An automated audio digest of recent publications on AI in K-12 education and teaching. Each episode narrates a current-awareness roundup of peer-reviewed studies, articles, and commentary.</description>
     <generator>AI-EDU-Podacast pipeline</generator>
-    <lastBuildDate>Sat, 18 Jul 2026 11:12:53 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 17:26:07 +0000</lastBuildDate>
     <atom:link href="https://avivbz.github.io/AI-EDU-Podacast/feed.xml" rel="self" type="application/rss+xml" />
-    <itunes:author>Aviv Bezalel</itunes:author>
+    <itunes:author>Aviv Ben-Zvi</itunes:author>
     <itunes:summary>An automated audio digest of recent publications on AI in K-12 education and teaching. Each episode narrates a current-awareness roundup of peer-reviewed studies, articles, and commentary.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
@@ -20,7 +20,7 @@
     </image>
     <itunes:category text="Education" />
     <itunes:owner>
-      <itunes:name>Aviv Bezalel</itunes:name>
+      <itunes:name>Aviv Ben-Zvi</itunes:name>
       <itunes:email>avivbz.hof@hfs.school</itunes:email>
     </itunes:owner>
     <item>
