@@ -1,0 +1,8 @@
+# Runtime dependencies for the podcast pipeline (generate_podcast.py)
+requests>=2.31
+pydub>=0.25.1
+python-dotenv>=1.0
+
+# Only needed to (re)generate cover.jpg with make_cover.py; not required by the
+# pipeline itself or the GitHub Actions workflow.
+Pillow>=10.0

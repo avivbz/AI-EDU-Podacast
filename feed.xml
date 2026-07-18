@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>AI in Education Publications</title>
+    <link>https://avivbz.github.io/AI-EDU-Podacast/</link>
+    <language>en</language>
+    <description>An automated audio digest of recent publications on AI in K-12 education and teaching. Each episode narrates a current-awareness roundup of peer-reviewed studies, articles, and commentary.</description>
+    <generator>AI-EDU-Podacast pipeline</generator>
+    <lastBuildDate>Sat, 18 Jul 2026 10:10:19 +0000</lastBuildDate>
+    <atom:link href="https://avivbz.github.io/AI-EDU-Podacast/feed.xml" rel="self" type="application/rss+xml" />
+    <itunes:author>Aviv Bezalel</itunes:author>
+    <itunes:summary>An automated audio digest of recent publications on AI in K-12 education and teaching. Each episode narrates a current-awareness roundup of peer-reviewed studies, articles, and commentary.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:image href="https://avivbz.github.io/AI-EDU-Podacast/cover.jpg" />
+    <image>
+      <url>https://avivbz.github.io/AI-EDU-Podacast/cover.jpg</url>
+      <title>AI in Education Publications</title>
+      <link>https://avivbz.github.io/AI-EDU-Podacast/</link>
+    </image>
+    <itunes:category text="Education" />
+    <itunes:owner>
+      <itunes:name>Aviv Bezalel</itunes:name>
+      <itunes:email>avivbz.hof@hfs.school</itunes:email>
+    </itunes:owner>
+    <item>
+      <title>Publications Digest - 9 July 2026</title>
+      <description>Audio digest of 4 recent publications on AI in K-12 education and teaching, covering the 9 July 2026 roundup.</description>
+      <guid isPermaLink="false">ai-edu-podcast-2026-07-09</guid>
+      <pubDate>Thu, 09 Jul 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://avivbz.github.io/AI-EDU-Podacast/episodes/2026-07-09.mp3" type="audio/mpeg" length="2294541" />
+      <itunes:duration>9:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Publications Digest - 9 July 2026</itunes:title>
+      <itunes:summary>Audio digest of 4 recent publications on AI in K-12 education and teaching, covering the 9 July 2026 roundup.</itunes:summary>
+    </item>
+  </channel>
+</rss>
