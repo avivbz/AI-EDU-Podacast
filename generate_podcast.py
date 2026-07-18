@@ -74,10 +74,10 @@ PODCAST_DESCRIPTION = (
     "and teaching. Each episode narrates a current-awareness roundup of "
     "peer-reviewed studies, articles, and commentary."
 )
-PODCAST_AUTHOR = "Aviv Bezalel"
+PODCAST_AUTHOR = "Aviv Ben-Zvi"
 PODCAST_LANGUAGE = "en"
 PODCAST_CATEGORY = "Education"
-PODCAST_EMAIL = "avivbz.hof@hfs.school"
+PODCAST_EMAIL = "avivbz@gmail.com"
 
 ITUNES_NS = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 ATOM_NS = "http://www.w3.org/2005/Atom"
