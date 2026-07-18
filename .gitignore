@@ -17,3 +17,5 @@ env/
 Thumbs.db
 .idea/
 .vscode/
+publish_review.ps1
+publish_review.log
