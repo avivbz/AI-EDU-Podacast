@@ -15,12 +15,12 @@
 # === EDIT THESE TWO PATHS ================================================= #
 
 # Your local clone of the repo (the folder that contains generate_podcast.py):
-$RepoPath  = "C:\Users\Aviv\AI-EDU-Podacast"
+$RepoPath  = "https://github.com/avivbz/AI-EDU-Podacast/tree/main"
 
 # The folder where your "AI in education reviews" task saves the .md digest.
 # If that task already writes straight into the repo's input\ folder, set this
 # to "$RepoPath\input" and the copy step below becomes a harmless no-op.
-$SourceDir = "C:\Users\Aviv\Documents\AI-Education-Reviews"
+$SourceDir = "C:\Users\avivb\ClaudeCode\AI-Edu-Publications"
 
 # ========================================================================= #
 
