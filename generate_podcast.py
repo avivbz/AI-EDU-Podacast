@@ -74,7 +74,7 @@ PODCAST_DESCRIPTION = (
     "and teaching. Each episode narrates a current-awareness roundup of "
     "peer-reviewed studies, articles, and commentary."
 )
-PODCAST_AUTHOR = "Aviv Bezalel"
+PODCAST_AUTHOR = "Aviv Ben-Zvi"
 PODCAST_LANGUAGE = "en"
 PODCAST_CATEGORY = "Education"
 PODCAST_EMAIL = "avivbz.hof@hfs.school"
