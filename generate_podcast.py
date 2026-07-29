@@ -93,18 +93,33 @@ def find_newest_markdown(input_dir: str) -> str:
     files = glob.glob(os.path.join(input_dir, "*.md"))
     if not files:
         raise FileNotFoundError(f"No .md files found in {input_dir!r}")
-    # Newest by modification time; ties broken by name (filenames encode a date).
-    files.sort(key=lambda p: (os.path.getmtime(p), p))
+    # Pick the digest with the latest embedded episode date. Selecting by the
+    # date the file actually carries (not its mtime) is essential in CI: a fresh
+    # checkout stamps every file with the same modification time, so an mtime
+    # sort is a tie that silently falls back to filename order -- and filenames
+    # that mix date formats (e.g. "20260709" vs "2026-07-16") do NOT sort by
+    # date, because a digit sorts after a dash. mtime then name are used only as
+    # tiebreakers when two files resolve to the same date.
+    def sort_key(path: str):
+        try:
+            with open(path, "r", encoding="utf-8") as fh:
+                text = fh.read()
+        except OSError:
+            text = ""
+        return (extract_episode_date(text, path), os.path.getmtime(path), path)
+
+    files.sort(key=sort_key)
     return files[-1]
 
 
 def extract_episode_date(md_text: str, filename: str) -> str:
     """Return the episode date as YYYY-MM-DD.
 
-    Prefers an 8-digit date embedded in the filename (e.g. ..._20260709.md),
-    then a 'Compiled: DD Month YYYY' line, then today's date.
+    Prefers a date embedded in the filename, with or without dash separators
+    (e.g. ..._20260709.md or ..._2026-07-16.md), then a 'Compiled: DD Month
+    YYYY' line, then today's date.
     """
-    m = re.search(r"(\d{4})(\d{2})(\d{2})", os.path.basename(filename))
+    m = re.search(r"(\d{4})-?(\d{2})-?(\d{2})", os.path.basename(filename))
     if m:
         return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
 
