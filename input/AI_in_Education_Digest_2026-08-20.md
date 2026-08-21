@@ -2,6 +2,7 @@
 
 **Date range covered:** 10 August 2026 – 20 August 2026 (the last 10 days relative to 20 August 2026)
 **Compiled:** 20 August 2026
+**Revised:** 20 August 2026 (v2 — added five items initially missed: Meyer, Barker Institute, Bauschard, Christodoulou, and Wexler. The first run relied on thematic web searches and did not execute the per-writer/blog checks the source list requires; two of the added items are from sources on the list — Dan Meyer and Daisy Christodoulou — that the first version had incorrectly reported as having no in-window publication.)
 **Scope:** Recent publications (peer-reviewed studies, preprints, articles, journal publications, blog posts, podcasts, and websites) on the integration of AI in K–12 education and teaching. Items whose publication date could not be confirmed within the window, whose topical focus is not K–12, or whose content could not be accessed and verified, are listed under "Unverified / excluded."
 
 **Note on overlap with the previous run:** The prior digest (compiled 13 August 2026) covered 3–13 August 2026. Items already documented there that fall inside the overlapping 10–13 August segment are de-duplicated here and not repeated below: the KCTV5 Kansas City report (10 August), the Diana Graber / Psychology Today "New Rules for Back to School 2026" post (10 August), and the Live 5 News / WCSC Charleston County report (11 August).
@@ -29,7 +30,75 @@ The article notes structural obstacles to teaching these skills, reporting that 
 
 ---
 
-### 2. Ohio schools now required to enforce an AI policy
+### 2. Does Alpha School Work for Regular Kids?
+
+1. **Title:** Does Alpha School Work for Regular Kids? (rendered in the page metadata as "Does the Alpha School Model Work for Regular Kids?")
+2. **Publication date:** 12 August 2026
+3. **Institution / publisher / platform:** Mathworlds (Substack newsletter)
+4. **Author(s):** Dan Meyer
+5. **Author note:** Meyer is a math educator and author of the Mathworlds newsletter who analyzes the instructional logic of education technology; the post carries a disclosure that the views are his own and not endorsed by or affiliated with Amplify.
+6. **URL:** https://danmeyer.substack.com/p/does-alpha-school-work-for-regular
+7. **Summary:**
+The post examines the Alpha School network of private schools (roughly a dozen campuses, tuition generally $40,000–$75,000) and its "2 Hour Learning" model, which claims students grow 2.6 times faster than peers on nationally normed MAP tests while spending about two hours a day on academics via an AI-driven platform, with teachers reframed as motivators and the rest of the day devoted to life-skills projects. Drawing on Alpha application pages and founder interviews, the post catalogs the ways Alpha selects its students—affordable tuition, multi-hour "Shadow Days," an interview, engaged parents, students "functioning within a typical range of ability and independence," no prior disciplinary removals, and "coachability"—and poses the central question of whether the model *makes* successful students or *selects* them.
+
+To separate the model from the selection process, the post turns to Unbound Academy, an Arizona public charter school approved in December 2024 and opened in Fall 2025 that names Alpha co-founder MacKenzie Price as its board president, uses the 2 Hour Learning model, and—as a public charter—must enroll students by residency rather than by selection and is free to families. The post reports that in its first full year (2025–26), Unbound Academy's Arizona state assessment results underperformed its own charter-application projections, the state averages, and its stated baselines: roughly 10% math proficiency against a projected 60% (baseline 34%, state average 34%) and roughly 28% ELA proficiency against a projected 65% (baseline 40%, state average 42%). The author notes caveats—Unbound's actual intake may have entered below the predicted baseline, and second-year scores will likely rise—and appends a correction reattributing a quotation from the admissions director to MacKenzie Price.
+
+8. **Main conclusions / central claims:** The post's central claim is that Unbound Academy, as a non-selective public application of the same 2 Hour Learning model, drastically underperformed the targets Alpha's own team set for it, and that this outcome—described as a quasi-experiment rather than a definitive test—indicates it is far harder to *make* successful students than to *select* them in advance. The author states the results should not be the last word on 2 Hour Learning but should be the loudest.
+
+---
+
+### 3. Young people, learning, and generative AI: A rapid literature review and implications for PreK-12 education
+
+1. **Title:** Young people, learning, and generative AI: A rapid literature review and implications for PreK-12 education
+2. **Publication date:** 12 August 2026 (launch announcement)
+3. **Institution / publisher / platform:** The Barker Institute (Australia), in partnership with the University of Sydney
+4. **Author(s):** A Barker Institute–University of Sydney research partnership; the launch announcement was written by Dr Matthew Hill.
+5. **Author note:** Hill is Director of The Barker Institute (the research arm of Barker College, Sydney), focused on professional learning, research, and innovation, and teaches physics; the report is a partnership between the Barker Institute and the University of Sydney.
+6. **URL:** https://barker.institute/news/young-people-learning-and-generative-ai-a-rapid-literature-review-and-implications-for-prek-12-education/
+7. **Summary:**
+The announcement reports that in August 2026 the Barker Institute and the University of Sydney published an academic report consisting of a rapid literature review of available academic evidence on generative AI in PreK-12 education. According to the announcement, 975 publications were screened and 271 met the selection criteria for inclusion, and these were synthesized into a 52-page report presenting outcomes, conditions, and recommendations. The report and a launch webinar are described as publicly available to educators, policymakers, and parents.
+
+The announcement states that the launch webinars, held in early August, were split into two parts: first, the authors presented the academic findings (framed as outcomes, conditions, and recommendations); second, a team of Barker staff described how the academic evidence has already influenced practice, including teaching and learning, support for primary school students, and assessment. (This summary is based on the Barker Institute's launch announcement and the stated report metadata; the full 52-page report text was not independently retrieved during this run, so its specific findings are not detailed here.)
+
+8. **Main conclusions / central claims:** The announcement presents the report as a synthesis of the current academic evidence base on generative AI in PreK-12 education, organized around outcomes, enabling conditions, and recommendations, and intended to inform educators, policymakers, and parents. Because the full report was not retrieved during this run, its specific conclusions are not restated here; the item is recorded as an institutional literature review synthesizing prior studies.
+
+---
+
+### 4. AGI: Education's Blindspot
+
+1. **Title:** AGI: Education's Blindspot
+2. **Publication date:** 14 August 2026
+3. **Institution / publisher / platform:** Education Disrupted: Teaching and Learning in An AI World (Substack newsletter)
+4. **Author(s):** Stefan Bauschard
+5. **Author note:** Bauschard is an educator, debate coach, and author who writes the Education Disrupted newsletter on AI's implications for teaching, learning, and schooling.
+6. **URL:** https://stefanbauschard.substack.com/p/agi-educations-blindspot
+7. **Summary:**
+The post argues that most education debates about AI rest on an outdated premise—AI as a next-word-predicting chatbot that hallucinates—and that this understates what frontier systems can now do. It attributes the shift to three training changes (reinforcement learning with automated verifiers, actively sourced data captured from expert workflows, and test-time compute), which it says produce systems that form strategies, execute them over long horizons, and adapt when blocked. It then characterizes four typical school responses to AI—doing nothing, forming a committee, buying edtech, and teaching students to challenge AI output—and focuses on the last, which it calls the "smartest wrong answer," arguing that a curriculum built around catching AI errors trains students for a permanent junior-partner role relative to systems whose reliability is rising and that it says are often configured (top-tier, maximum-reasoning) to critique the user rather than to be audited.
+
+The post contrasts education's posture with the frontier AI labs' reorganization around artificial general intelligence, citing OpenAI's published plan and a "Personal AGI" team, Anthropic's $200 million Economic Futures Research Fund, and Google DeepMind's AGI safety paper and course, and notes forecasts placing AGI within a few years. It reports that, as of mid-2026, 37 states plus Puerto Rico had issued K-12 AI guidance and roughly 71 bills across 27 states were being tracked, but argues these focus on cheating, data privacy, procurement, teacher training on approved tools, disclosure, and screen time rather than on what graduates should be able to do in a labor market containing systems more capable than they are. It proposes cultivating "authorship" and accountability through project-based learning, debate, design thinking, and interdisciplinary work.
+
+8. **Main conclusions / central claims:** The post's central claim, summarized in its own line, is that "the labs have a plan for AGI" while "education has a guidance document about cheating." It argues the blindspot is not that schools are pro- or anti-AI but that they are regulating AI as a tool to be managed within the existing model of school, while the organizations building the technology are planning for cognitive systems that could exceed the capabilities of the graduates schools produce, and that educators should ask what a graduate should be able to do when the machine is better than they are.
+
+---
+
+### 5. Solving GCSE mocks with Comparative Judgement
+
+1. **Title:** Solving GCSE mocks with Comparative Judgement (subtitle: "Double Marker — our newest project")
+2. **Publication date:** 14 August 2026
+3. **Institution / publisher / platform:** No More Marking (Substack newsletter)
+4. **Author(s):** Daisy Christodoulou and Chris Wheadon
+5. **Author note:** Christodoulou is Director of Education at No More Marking and a cognitive-science-oriented writer on assessment; Wheadon is a co-founder of No More Marking, an organization that provides comparative-judgement assessment.
+6. **URL:** https://substack.nomoremarking.com/p/solving-gcse-mocks-with-comparative
+7. **Summary:**
+The post describes a new No More Marking assessment product called "Double Marker," developed for marking GCSE mock examinations in England. It situates the tool within the organization's decade of Comparative Judgement work (about 2,000 schools and roughly 3 million pieces of writing), noting that since 2025 it has offered AI judges alongside human judges to reduce judging time and provide feedback. The authors frame a tension: Comparative Judgement uses holistic judgments without a mark scheme and is, they argue, more accurate than mark-scheme marking, yet schools marking GCSE mocks want engagement with the exam boards' detailed mark schemes. Double Marker's design uses AI Comparative Judgement as a first marker that assigns every script a reliable mark, and a human teacher as a second marker who applies the approved mark scheme to a selected sample, with those human marks used to fine-tune and adjust the AI-derived marks.
+
+The post reports a summer-term pilot with 14 secondary schools on Year 10 GCSE English Language and Literature mocks and details the workflow: barcoding and scanning paper booklets, judging each school independently and then using a 20% moderation sample to place schools on a unified scale, having teachers mark samples with the mark scheme blind to the AI mark, running an optimization routine to correct AI bias and distance relative to the human marks, flagging large discrepancies for a senior marker who retains final override authority, and returning marks plus AI feedback at pupil, class, school, and cohort levels within two weeks. It states the pilot was successful and that a larger, still-free project is planned for October–November 2026.
+
+8. **Main conclusions / central claims:** The post presents Double Marker as an AI-plus-human assessment workflow in which AI Comparative Judgement provides the primary, reliable mark and human teachers using the exam board's mark scheme calibrate the scale and can override flagged marks, framed as reducing teachers' marking workload while retaining human oversight, mark-scheme alignment, and comparability across schools for GCSE mock marking.
+
+---
+
+### 6. Ohio schools now required to enforce an AI policy
 
 1. **Title:** Ohio schools now required to enforce an AI policy (headline also rendered as "How AI can benefit students learning in the classroom")
 2. **Publication date:** 14 August 2026 (updated 16 August 2026)
@@ -46,7 +115,7 @@ The report quotes the Ohio Department of Education and Workforce stating that th
 
 ---
 
-### 3. Slow math: Kids may learn more when AI makes them review mistakes
+### 7. Slow math: Kids may learn more when AI makes them review mistakes
 
 1. **Title:** Slow math: Kids may learn more when AI makes them review mistakes
 2. **Publication date:** 17 August 2026
@@ -63,7 +132,24 @@ The article explains the researchers' interpretation that the AI helped by walki
 
 ---
 
-### 4. Survey: 5 Ways AI Is Cutting Into Students' Ability to Learn
+### 8. How Alpha School Teaches Writing
+
+1. **Title:** How Alpha School Teaches Writing
+2. **Publication date:** 17 August 2026
+3. **Institution / publisher / platform:** Minding the Gap (Substack newsletter)
+4. **Author(s):** Natalie Wexler
+5. **Author note:** Wexler is an education writer focused on literacy and knowledge-building curricula and co-author, with Judith C. Hochman, of a book describing The Writing Revolution / Hochman Method of writing instruction.
+6. **URL:** https://nataliewexler.substack.com/p/how-alpha-school-teaches-writing
+7. **Summary:**
+The post examines AlphaWrite, the writing-instruction app used by the Alpha School network (which relies on AI "tutors" to deliver academics in about two hours a day). Drawing on a detailed description in the "Austin Scholar" newsletter written by a recent Alpha graduate, Wexler reports that AlphaWrite closely resembles The Writing Revolution / Hochman Method—explicit instruction progressing from sentences to paragraphs to essays with substantial guided practice and targeted feedback—and that the graduate reported AlphaWrite users grew 3.6 times in language and 3.3 times in reading during 2025–26, compared with 1.8 and 2.2 times for non-users at the same campuses (figures based on NWEA MAP tests). She identifies one key departure: whereas the Hochman Method is designed to be embedded in curriculum content, AlphaWrite embeds writing instruction in students' personal interests (with suggested topics such as Fortnite, Harry Potter, social media, video games, and basketball).
+
+Wexler argues that anchoring writing instruction in personal interests rather than curriculum content conflicts with cognitive science, invoking writing's role in retrieval practice and elaboration and studies indicating that writing about content students have read or studied enhances learning. She distinguishes "personalized pathways to a well-rounded curriculum" from "personalized content" (citing education writer Lisa Hansel), questions whether writing about video games transfers to academic tasks such as literary analysis, and characterizes the approach as part of a strain of anti-intellectualism in the Alpha model, while noting she has not visited an Alpha School and is trying to keep an open mind. Footnotes raise questions about the Austin Scholar account and about claims that the app is based on the Common Core.
+
+8. **Main conclusions / central claims:** Wexler's central claim is that although AlphaWrite adopts an evidence-based explicit-writing method resembling The Writing Revolution, its decision to anchor writing in students' personal interests rather than academic curriculum content forgoes the learning that writing about curriculum content produces, and that this reflects a broader de-emphasis of academic knowledge in the Alpha School model.
+
+---
+
+### 9. Survey: 5 Ways AI Is Cutting Into Students' Ability to Learn
 
 1. **Title:** Survey: 5 Ways AI Is Cutting Into Students' Ability to Learn
 2. **Publication date:** 18 August 2026
@@ -80,7 +166,7 @@ The article presents additional findings and voices. It reports that among teens
 
 ---
 
-### 5. Howard Gardner: How AI Will Force Us to 'Rethink' Education
+### 10. Howard Gardner: How AI Will Force Us to 'Rethink' Education
 
 1. **Title:** Howard Gardner: How AI Will Force Us to 'Rethink' Education
 2. **Publication date:** 18 August 2026
@@ -97,7 +183,7 @@ Gardner outlines a scenario in which every child still masters reading, writing,
 
 ---
 
-### 6. Assignments, Invoices, and the AI Fix
+### 11. Assignments, Invoices, and the AI Fix
 
 1. **Title:** Assignments, Invoices, and the AI Fix
 2. **Publication date:** 19 August 2026
@@ -114,7 +200,7 @@ In the second segment, reporter Mi Aniefuna traces AI back to the data centers t
 
 ---
 
-### 7. When AI Makes Young People Think for Themselves, Real Learning Happens
+### 12. When AI Makes Young People Think for Themselves, Real Learning Happens
 
 1. **Title:** When AI Makes Young People Think for Themselves, Real Learning Happens
 2. **Publication date:** 19 August 2026
@@ -141,20 +227,26 @@ The following items surfaced during searching but are excluded from the dated di
 - **"AI embraced by more students and educators, Instructure finds"** — K-12 Dive, Anna Merod. Excluded on date: published 22 July 2026, outside the window.
 - **"Students Created a National AI Policy Framework. Here's What It Includes"** — Education Week, Lauraine Langreo (August 2026). De-duplicated on topic: this covers the same student-authored "STUDENTS FIRST Act" / America's Youth AI Festival framework already documented in earlier digests (via the AASA / Day of AI release).
 - **"How Teachers Are Experimenting With AI"** — Education Week (Larry Ferlazzo), 18 August 2026. In window, but the item is a short opinion-blog round-up whose body was not individually accessed and verified in full during this run; noted for completeness rather than summarized.
+- **Greg Ashman, Filling the Pail (Substack)** — Ashman published within the window (e.g., "Careers education," 18 August; "Curios of the week #180," a mixed education links round-up, 14 August; "Bureaucrat SLAMS the Australian Education Research Organisation," 11 August), but none of these in-window posts is a publication dedicated to AI in K–12 education, so they are not summarized here.
 - **WOWT (Omaha, 19 August 2026), WALB (Albany, GA, 18 August 2026), and Valley News Live / DGF schools (19 August 2026)** — Local television Education-desk segments on district AI adoption. Excluded on verification: these are primarily video segments whose full text could not be independently accessed and confirmed during this run.
 - **Ethan Mollick, One Useful Thing** — Excluded on date/topic: no confirmed in-window (10–20 August) post with a K–12 focus was located; the most recent located posts predate the window.
 
 ## Sources on the list checked with no new in-window item
 
-Ethan Mollick (One Useful Thing), Benjamin Riley (Cognitive Resonance), Carl Hendrick (The Learning Dispatch), Daisy Christodoulou / No More Marking, Greg Ashman (Filling the Pail), Ollie Lovell (ERRR Podcast), Craig Barton (Mr Barton Maths Podcast), Dan Bowen & Ray Fleming (AI in Education Podcast), Dan Meyer (Mathworlds), Marc Watkins (Rhetorica), and Stefan Bauschard (Education Disrupted) were checked; no publication with a confirmed date within 10–20 August 2026 and a K–12 AI focus was located for these sources during this run. No new institutional report on AI in K–12 with a confirmed in-window publication date was located from Stanford HAI, Brookings, RAND, OECD, UNESCO, the Council of Europe, the Manhattan Institute, TeachAI, or AASA, and no in-window K–12-focused article with a confirmed date was located in PNAS, Scientific Reports, or IJELL. The one located in-window academic item on K–12 AI tutoring (arXiv 2608.11259) fell just outside the window by publication date and is listed under "Unverified / excluded."
+Individually checked with no confirmed in-window (10–20 August 2026), K–12-focused AI publication located: Benjamin Riley (Cognitive Resonance; latest post 29 June), Carl Hendrick (The Learning Dispatch; latest 20 June), and Marc Watkins (Rhetorica; latest 8 July). Greg Ashman (Filling the Pail) published within the window but not on AI in K–12 (see "Unverified / excluded"). Podcast sources on the list — Ollie Lovell (ERRR), Craig Barton (Mr Barton Maths), and Dan Bowen & Ray Fleming (AI in Education Podcast) — were not confirmed to have a new in-window K–12 AI episode during this run. No new institutional report on AI in K–12 with a confirmed in-window publication date was located from Stanford HAI, Brookings, RAND, OECD, UNESCO, the Council of Europe, the Manhattan Institute, TeachAI, or AASA, and no in-window K–12-focused article with a confirmed date was located in PNAS, Scientific Reports, or IJELL.
 
 ---
 
 ## Sources
 
 - [Data Literacy Skills Seen as Key for Success in the Age of AI — Education Week](https://www.edweek.org/technology/data-literacy-skills-seen-as-key-for-success-in-the-age-of-ai/2026/08)
+- [Does Alpha School Work for Regular Kids? — Mathworlds (Dan Meyer)](https://danmeyer.substack.com/p/does-alpha-school-work-for-regular)
+- [Young people, learning, and generative AI: A rapid literature review — The Barker Institute & University of Sydney](https://barker.institute/news/young-people-learning-and-generative-ai-a-rapid-literature-review-and-implications-for-prek-12-education/)
+- [AGI: Education's Blindspot — Education Disrupted (Stefan Bauschard)](https://stefanbauschard.substack.com/p/agi-educations-blindspot)
+- [Solving GCSE mocks with Comparative Judgement (Double Marker) — No More Marking (Daisy Christodoulou & Chris Wheadon)](https://substack.nomoremarking.com/p/solving-gcse-mocks-with-comparative)
 - [Ohio schools now required to enforce an AI policy — Spectrum News 1 Ohio](https://spectrumnews1.com/oh/columbus/news-all-day/2026/08/14/ai--schools--learning--ohio--policy)
 - [Slow math: Kids may learn more when AI makes them review mistakes — The Hechinger Report](https://hechingerreport.org/proof-points-ai-mastery-learning/)
+- [How Alpha School Teaches Writing — Minding the Gap (Natalie Wexler)](https://nataliewexler.substack.com/p/how-alpha-school-teaches-writing)
 - [Survey: 5 Ways AI Is Cutting Into Students' Ability to Learn — The 74](https://www.the74million.org/article/survey-5-ways-ai-is-cutting-into-students-ability-to-learn/)
 - [Howard Gardner: How AI Will Force Us to 'Rethink' Education — Education Week](https://www.edweek.org/technology/opinion-howard-gardner-how-ai-will-force-us-to-rethink-education/2026/08)
 - [Assignments, Invoices, and the AI Fix — EdSurge](https://www.edsurge.com/news/what-is-ai-actually-costing-schools)
