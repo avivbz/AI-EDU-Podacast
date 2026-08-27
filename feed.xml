@@ -6,7 +6,7 @@
     <language>en</language>
     <description>An automated audio digest of recent publications on AI in K-12 education and teaching. Each episode narrates a current-awareness roundup of peer-reviewed studies, articles, and commentary.</description>
     <generator>AI-EDU-Podacast pipeline</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 07:57:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 15:45:00 +0000</lastBuildDate>
     <atom:link href="https://avivbz.github.io/AI-EDU-Podacast/feed.xml" rel="self" type="application/rss+xml" />
     <itunes:author>Aviv Ben-Zvi</itunes:author>
     <itunes:summary>An automated audio digest of recent publications on AI in K-12 education and teaching. Each episode narrates a current-awareness roundup of peer-reviewed studies, articles, and commentary.</itunes:summary>
@@ -23,6 +23,17 @@
       <itunes:name>Aviv Ben-Zvi</itunes:name>
       <itunes:email>avivbz.hof@hfs.school</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Publications Digest - 27 August 2026</title>
+      <description>Audio digest of 4 recent publications on AI in K-12 education and teaching, covering the 27 August 2026 roundup.</description>
+      <guid isPermaLink="false">ai-edu-podcast-2026-08-27</guid>
+      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://avivbz.github.io/AI-EDU-Podacast/episodes/2026-08-27.mp3" type="audio/mpeg" length="2311341" />
+      <itunes:duration>9:38</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:title>Publications Digest - 27 August 2026</itunes:title>
+      <itunes:summary>Audio digest of 4 recent publications on AI in K-12 education and teaching, covering the 27 August 2026 roundup.</itunes:summary>
+    </item>
     <item>
       <title>Publications Digest - 20 August 2026</title>
       <description>Audio digest of 12 recent publications on AI in K-12 education and teaching, covering the 20 August 2026 roundup.</description>
